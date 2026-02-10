@@ -1,0 +1,77 @@
+.time-page .time-tabs {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 10px;
+  padding: 10px;
+  background: #f6f3ff;
+  border: 1px solid #e4ddf7;
+  border-radius: 14px;
+}
+
+.time-page .time-tab {
+  border: 1px solid transparent;
+  background: #ffffff;
+  color: #3a2f55;
+  padding: 8px 16px;
+  border-radius: 999px;
+  font-weight: 600;
+  transition: all 0.2s ease;
+}
+
+.time-page .time-tab:hover {
+  border-color: #d9cff4;
+  box-shadow: 0 6px 12px rgba(111, 66, 193, 0.12);
+  transform: translateY(-1px);
+}
+
+.time-page .time-tab.active {
+  background: linear-gradient(135deg, #6f42c1, #9a6bff);
+  color: #fff;
+  box-shadow: 0 10px 20px rgba(111, 66, 193, 0.25);
+}
+
+.time-page .time-card {
+  border: 1px solid #efe9ff;
+  border-radius: 16px;
+}
+
+.time-page .time-subtabs {
+  display: flex;
+  gap: 10px;
+  overflow-x: auto;
+  padding-bottom: 4px;
+}
+
+.time-page .time-subtab {
+  border: 1px solid #e0d7f5;
+  background: #ffffff;
+  border-radius: 12px;
+  padding: 10px 12px;
+  min-width: 180px;
+  text-align: left;
+  transition: all 0.2s ease;
+}
+
+.time-page .time-subtab:hover {
+  border-color: #cdbcf0;
+  box-shadow: 0 6px 14px rgba(111, 66, 193, 0.12);
+  transform: translateY(-1px);
+}
+
+.time-page .time-subtab.active {
+  background: rgba(111, 66, 193, 0.1);
+  border-color: #6f42c1;
+}
+
+.time-page .time-subtab-title {
+  display: block;
+  font-weight: 600;
+  color: #3a2f55;
+}
+
+.time-page .time-subtab-meta {
+  display: block;
+  font-size: 12px;
+  color: #6d5c99;
+  margin-top: 4px;
+}
